@@ -30,7 +30,7 @@ data:
     calico_felix_premetheusmetricsenabled: true
     calico_feature_detect_override: "ChecksumOffloadBroken=true" # FIX https://github.com/kubernetes-sigs/kubespray/pull/9261
 
-    ##https://github.com/kubernetes-sigs/kubespray/blob/master/docs/mirror.md
+    ##https://github.com/kubernetes-sigs/kubespray/blob/master/inventory/sample/group_vars/all/offline.yml
     gcr_image_repo: "gcr.m.daocloud.io"
     kube_image_repo: "k8s.m.daocloud.io"
     docker_image_repo: "docker.m.daocloud.io"
